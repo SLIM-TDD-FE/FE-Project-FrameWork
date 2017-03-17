@@ -9,14 +9,13 @@ import store from './store'
 // Import Helpers for filters
 import { domain, count, prettyDate, pluralize } from './filters'
 // Import Helpers for tools
-import { getPathArray } from './tools'
+// import { getPathArray } from './tools'
 
 // Import Views - Top level
 import AppView from './components/App.vue'
 
 // testing loader tools function
 // var fuc = getPathArray
-
 
 // Import Install and register helper items
 Vue.filter('count', count)
