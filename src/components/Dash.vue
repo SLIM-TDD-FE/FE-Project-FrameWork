@@ -204,6 +204,8 @@
 
 <script>
 import faker from 'faker'
+import Demo from './dash/Demo.vue'
+
 require('hideseek')
 
 module.exports = {
@@ -220,6 +222,9 @@ module.exports = {
         }
       }
     }
+  },
+  components: {
+    Demo
   },
   computed: {
     store: function () {
